@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather App NG</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 2rem;
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+    h1 {
+      color: #007BFF;
+    }
+    select, button {
+      padding: 10px;
+      margin: 10px;
+      font-size: 16px;
+    }
+    #weatherResult {
+      margin-top: 20px;
+      background: #fff;
+      padding: 1rem;
+      border-radius: 8px;
+      display: inline-block;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+  <h1>🇳🇬 Weather App NG</h1>
+  <p>Select a state and a town/city to get live weather</p>
+
+  <div>
+    <label for="stateSelect">State:</label>
+    <select id="stateSelect" onchange="updateCities()"></select>
+  </div>
+  
+  <div>
+    <label for="citySelect">City:</label>
+    <select id="citySelect"></select>
+  </div>
+
+  <button onclick="getWeather()">Get Weather</button>
+
+  <div id="weatherResult"></div>
+
+  <script src="nigeria_locations.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
