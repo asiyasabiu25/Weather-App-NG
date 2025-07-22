@@ -6,7 +6,7 @@ A simple weather app that shows real-time weather for **all 36 Nigerian states a
 
 ## 🌍 Live Demo
 
-[Click here to try it](https://https://asiyasabiu25.github.io/Weather-App-NG)
+[Click here to try it](https://asiyasabiu25.github.io/Weather-App-NG)
 
 ---
 
